@@ -39,8 +39,8 @@ form ol li {
 	/* border-radius: 10%;	Remove this and make new rules */
 	padding: 1% 2%;
 	margin-bottom: .5px;
-	display: flex;
-	flex-direction: column;
+	display: flex !important;
+	flex-direction: column !important;
 }
 
 form ol ol li {
