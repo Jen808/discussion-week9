@@ -1,4 +1,8 @@
 /* GENERAL APPEARANCE */
+
+/* SI339 - Jennifer Jung */
+
+
 html, body, h1, form, fieldset, legend, ol, li {
 	margin: 0;
 	padding: 0;
@@ -20,11 +24,14 @@ form{
 
 ol{
 	list-style-type: none;
+	border-radius: 25px;
+	background: #94cce5;
+	background: rgba(255,255,255,.3);
 }
 /* Style the list items*/
 form ol li {
-	background: #94cce5;
-	background: rgba(255,255,255,.3);
+	/* background: #94cce5;
+	background: rgba(255,255,255,.3); */
 	border-color: #e3ebc3;
 	border-color: rgba(255,255,255,.6);
 	border-style: solid;
@@ -32,6 +39,8 @@ form ol li {
 	/* border-radius: 10%;	Remove this and make new rules */
 	padding: 1% 2%;
 	margin-bottom: .5px;
+	display: flex;
+	flex-direction: column;
 }
 
 form ol ol li {
